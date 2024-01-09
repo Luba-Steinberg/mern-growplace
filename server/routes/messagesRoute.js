@@ -44,10 +44,7 @@ router.post('/get-my-messages', async (req, res) => {
     const messages = await Message.find(filters)
       .populate('fromAuthor', 'name')
       .populate('product', 'name price image')
-    // console.log('the products for messages are', messages.length);
-    // for (i=0; i<4; i++) {
-    //  console.log('product in message number ', i, 'is ', messages[i].product.name, ', the price is', messages[i].product.price)
-    // }
+  
     res.send({
       success: true,
       messages,
