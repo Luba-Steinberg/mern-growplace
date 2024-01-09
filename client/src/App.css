@@ -1,0 +1,96 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  margin-top: 0;
+  padding: 0;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+#mainNav {
+  position: 'absolute';
+  margin: top-1;
+}
+
+/* .checkForm {
+  display: none;
+  display: block;
+} */
+
+.box {
+  background-color: silver;
+  width: 98%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 15px;
+  height: 200px;
+}
+
+input {
+  width:99.5%; 
+  border-radius: 5px;
+  margin:  auto;
+  height: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* li:before {
+  content: '✕';
+} */
+.unValid:before {
+  content: '✕';
+}
+
+.valid:before {
+  content: 'ⓥ';
+}
+
+#mainTitle {
+  margin-top: 5px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#formInstruction{
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+li {
+  margin: 5px;
+  font-size:x-large;
+}
+
+.liSpan {
+  margin-left: 45px;
+}
+
+.mySpan {
+  font-weight:bold;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  padding: 2px;
+  width: 150px;
+}
+
+#submitText {
+  align-self: center;
+  /* margin-bottom: none; */
+}
+
+#myTitle {
+  color: black;
+}
+
+
